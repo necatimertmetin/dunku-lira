@@ -1,0 +1,21 @@
+{
+  "_comment": "TÜİK monthly CPI changes (%) for months the OECD feed does not have yet. Add each month after TÜİK's release (3rd working day). Entries the OECD feed already covers are ignored.",
+  "changes": {
+    "2026-01": 4.84,
+    "2026-02": 2.96,
+    "2026-03": 1.94,
+    "2026-04": 4.18,
+    "2026-05": 1.71,
+    "2026-06": 0.99,
+    "2026-07": 1.78,
+    "2026-08": 1.84,
+    "2026-09": 1.84
+  },
+  "checks": {
+    "_comment": "Cumulative change since December of the previous year as published by TÜİK; the fetch script fails if the monthly figures do not add up.",
+    "2026-05": 16.61,
+    "2026-06": 17.76,
+    "2026-07": 19.86,
+    "2026-08": 22.07
+  }
+}
